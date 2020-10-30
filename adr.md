@@ -1,12 +1,15 @@
-# Architecture Characteristics
-## Primary
+# ADR #1
+
+## Architecture Characteristics
+
+### Primary
 * Feasibility - it’s a startup, funds are limited
 * Reliability - customer must be able to get food at any time, and inventory must be available
 * Usability - need low barrier of use to customers
 * Testability - data needs to be right, otherwise poor user experience
 * Maintainability - needs to be easy to maintain; probably not going to maintain full time development staff
 
-## Secondary
+### Secondary
 * Consistency - need inventory list to be accurate
 * Auditability - $ trail
 * Performance - an aspect of usability; customers should not have to wait a long time to get the necessary information
