@@ -25,6 +25,8 @@ As an early stage startup still validating product market fit, large technical i
 
 # ADR #2
 
+![Topology Diagram #1](./topology_v1.png)
+
 ## Presentation Layer
   Because the Farmacy Food employees and customers will be using the application for different purposes, we want distinct presentation components to encapsulate their different user experiences.
 
@@ -43,6 +45,8 @@ Inventory and transactions will need to be stored.
 
 
 # ADR #3
+
+![Topology Diagram #1](./topology_v2.png)
 
 In discussing which component is persisting transaction data, we identified that the Inventory Tracker should own that responsibility. As the architecture evolves, the transaction and inventory data will need to remain easily accessible to the Inventory Tracker. Furthermore, the Transaction Retriever does not need the data once it has processed it.
 
